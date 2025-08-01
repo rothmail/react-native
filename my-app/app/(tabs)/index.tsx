@@ -9,13 +9,17 @@ import ButtonTest from "@/components/ButtonTest";
 import Text from "@/components/TextTDS241T";
 import ScrollViewTest from "@/components/ScrollViewTest";
 import ModalTest from "@/components/ModalTest";
+import SwitchTest from "@/components/SwitchTest";
+import ProdutoTest from "@/components/ProdutoTest";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Titulo />
       <ImagemAssets />
+      <ProdutoTest nome = 'morango' lote= 'E24' validade = '21/08/2023' />
       <ModalTest />
+      <SwitchTest />
     </View>
   )
 }
