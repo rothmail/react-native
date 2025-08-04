@@ -10,14 +10,14 @@ import Text from "@/components/TextTDS241T";
 import ScrollViewTest from "@/components/ScrollViewTest";
 import ModalTest from "@/components/ModalTest";
 import SwitchTest from "@/components/SwitchTest";
-import ProdutoTest from "@/components/ProdutoTest";
+import PerfilUsuario from "@/components/PerfilUsuario";
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Titulo />
       <ImagemAssets />
-      <ProdutoTest nome = 'morango' lote= 'E24' validade = '21/08/2023' />
+      <PerfilUsuario nome = 'Amanda' idade = {16} cidade = 'São Leopoldo' />
       <ModalTest />
       <SwitchTest />
     </View>
