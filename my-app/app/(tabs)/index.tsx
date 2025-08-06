@@ -11,6 +11,7 @@ import ScrollViewTest from "@/components/ScrollViewTest";
 import ModalTest from "@/components/ModalTest";
 import SwitchTest from "@/components/SwitchTest";
 import PerfilUsuario from "@/components/PerfilUsuario";
+import PedidoCafe from "@/components/PedidoCafe";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <PerfilUsuario nome = 'Amanda' idade = {16} cidade = 'São Leopoldo' />
       <ModalTest />
       <SwitchTest />
+      <PedidoCafe />
     </View>
   )
 }
